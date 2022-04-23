@@ -1,0 +1,20 @@
+1)How do I create a hidden file or folder? How do I display it in the CLI?
+
+-Use the mkdir command to create a new folder.
+-mkdir add a dot at the beginning the name
+
+For example: mkdir .beyza
+             touch .beyza.txt
+
+2)How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+
+-mkdir -p command to create multiple nested directories.
+
+For example: mkdir -p hyf/week1/prep/bird
+
+3) How do I append a message to a file, without a newline character, so the output would be:
+
+
+- echo -e option and /n
+
+For example: echo -e "first message /nsecond message
