@@ -2,14 +2,12 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
 }
 
 body{
 	background: lightblue;
+	font-family: 'Poppins', sans-serif;
 }
-
-
 
 .container{
 	position: relative;
@@ -18,37 +16,31 @@ body{
 	display: grid;
 	grid-template-columns: 1fr 2fr;
 	box-shadow: 0 35px 55px rgba(0,0,0,0.1);
-
-
 }
 
-.container .left_side{
-
+.leftSide{
 	position:relative;
 	background: #FA8072;
 	padding: 1rem 2rem ;
 }
-
 
 .profileText{
 	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-bottom: 20px
+	padding-bottom: 20px;
 	border-bottom: 1px solid rgba(255,255,255,0.2);
 }
 
-.profileText .imgBx{
+.imgBx{
 	width: 80%;
 }
 
  img{
 	width: 100%;
 	border-radius: 50%;
-
 }
-
 
 .profileText h2{
 	color:#fff;
@@ -58,16 +50,15 @@ body{
 	text-align: center;
 	font-weight: 600;
 	line-height: 1.4em;
-
 }
 
 .profileText h2 span{
 	font-size: 0.8em;
 	font-weight: 300;
 }
+
 .contactInfo{
 	padding-top: 5px;
-
 }
 
 .title{
@@ -80,8 +71,8 @@ body{
 
 .contactInfo ul{
 	position: relative;
-
 }
+
 .contactInfo ul li{
 	position: relative;
 	list-style: none;
@@ -89,27 +80,21 @@ body{
 	cursor: pointer;
 }
 
-
 .contactInfo ul li span{
 	color:#fff;
 	font-weight: 300;
 }
 
-
-
-.container .right_side{
+.rightSide{
 	position:relative;
 	background: #fff;
 	padding: 1rem 1rem 1rem 5rem;
 }
-.meter{
-	
-	margin bottom: :20px;
 
-}
 .title2{
 	color:darkblue;
 	font-size: 30px;
+	margin-top: 3rem ;
 }
 .title2::after {
 	content: '';
@@ -118,19 +103,17 @@ body{
 	height:25px;
 	border-bottom: 3px solid red;
 	margin-left: 5px;
-
 }
+
  .hob{
  	width:30%;
  	display:grid;
  	grid-template-columns: 200px 200px 200px 200px;
  	grid-template-rows:50px 70px;
-    
-
  }
+
 .item{
 width:50px;
-
 }
 
 
@@ -154,10 +137,8 @@ width:50px;
 
         .profileText{
         	text-align: center;
-
         }
  }
-
 
 
 
