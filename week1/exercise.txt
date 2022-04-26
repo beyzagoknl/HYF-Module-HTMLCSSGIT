@@ -1,0 +1,24 @@
+1)How do I create a hidden file or folder? How do I display it in the CLI?
+
+-Use the mkdir command to create a new folder.
+-mkdir add a dot at the beginning the name
+
+beyzagok@Alis-MacBook-Air ~ % cd /Users/beyzagok/Desktop/hyf/module1/week1/clichallenge
+beyzagok@Alis-MacBook-Air clichallenge % touch .beyza.txt
+beyzagok@Alis-MacBook-Air clichallenge % mkdir .beyza
+
+2)How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+
+-mkdir -p command to create multiple nested directories.
+
+beyzagok@Alis-MacBook-Air ~ % cd /Users/beyzagok/Desktop/hyf/module1/week1/clichallenge
+beyzagok@Alis-MacBook-Air clichallenge % mkdir -p newfolder/newexercise/bird
+
+
+
+3) How do I append a message to a file, without a newline character, so the output would be:
+
+
+- echo -e option and /n
+
+beyzagok@Alis-MacBook-Air clichallenge % echo -e "first message\nsecond message" >> beyza.txt 
