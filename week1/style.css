@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: lightblue;
+	font-family: 'Poppins', sans-serif;
+}
+
+.container{
+	position: relative;
+	width: 100%;
+	background: #fff;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.leftSide{
+	position:relative;
+	background: #FA8072;
+	padding: 1rem 2rem ;
+}
+
+.profileText{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+
+.imgBx{
+	width: 80%;
+}
+
+ img{
+	width: 100%;
+	border-radius: 50%;
+}
+
+.profileText h2{
+	color:#fff;
+	font-size: 1.5em;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	line-height: 1.4em;
+}
+
+.profileText h2 span{
+	font-size: 0.8em;
+	font-weight: 300;
+}
+
+.contactInfo{
+	padding-top: 5px;
+}
+
+.title{
+	color:#fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+.contactInfo ul{
+	position: relative;
+}
+
+.contactInfo ul li{
+	position: relative;
+	list-style: none;
+	margin: 10px 0;
+	cursor: pointer;
+}
+
+.contactInfo ul li span{
+	color:#fff;
+	font-weight: 300;
+}
+
+.rightSide{
+	position:relative;
+	background: #fff;
+	padding: 1rem 1rem 1rem 5rem;
+}
+
+.title2{
+	color:darkblue;
+	font-size: 30px;
+	margin-top: 3rem ;
+}
+.title2::after {
+	content: '';
+	position:absolute;
+	width:45%;
+	height:25px;
+	border-bottom: 3px solid red;
+	margin-left: 5px;
+}
+
+ .hob{
+ 	width:30%;
+ 	display:grid;
+ 	grid-template-columns: 200px 200px 200px 200px;
+ 	grid-template-rows:50px 70px;
+ }
+
+.item{
+width:50px;
+}
+
+
+@media screen and  (max-width:1000px) {
+		.container
+		{
+			margin:0px;
+			grid-template-columns:repeat(1,1fr);
+		}
+
+		.item{
+			grid-template-columns: repeat(2,1fr);
+		}
+
+		.hob ul{
+ 			grid-template-columns: repeat(2,1fr);
+ 		}
+         img{
+        	width: 50%;
+        }
+
+        .profileText{
+        	text-align: center;
+        }
+ }
+
